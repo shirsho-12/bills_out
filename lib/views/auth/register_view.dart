@@ -65,7 +65,7 @@ class _RegisterViewState extends State<RegisterView> {
             children: [
               // const Text("Register"),
               Text(
-                "Welcome to Sokyo!\n\n Create a new account to get started",
+                "Welcome to Bills Out!\n\n Create a new account to get started",
                 style: BillsTextStyle.headline5,
                 textAlign: TextAlign.center,
               ),

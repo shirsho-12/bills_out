@@ -54,9 +54,9 @@ class _LoginViewState extends State<LoginView> {
         }
       },
       child: Scaffold(
-        backgroundColor: SokyoColors.p2,
+        // backgroundColor: SokyoColors.p2,
         appBar: AppBar(
-          title: const Text("Sokyo"),
+          title: const Text("Bills Out"),
           centerTitle: true,
         ),
         body: Padding(
@@ -82,7 +82,7 @@ class _LoginViewState extends State<LoginView> {
                   context.read<AuthBloc>().add(const AuthEventGoogleSignIn());
                 },
                 style: TextButton.styleFrom(
-                  backgroundColor: SokyoColors.p2,
+                  // backgroundColor: SokyoColors.p2,
                   shadowColor: Colors.black,
                   padding: const EdgeInsets.symmetric(
                     vertical: 20,

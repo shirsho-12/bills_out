@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "789591028137",
+    "project_id": "bills-out",
+    "storage_bucket": "bills-out.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789591028137:android:f9e076a0f22149ddec14b8",
+        "android_client_info": {
+          "package_name": "com.aihacks.bills_out"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789591028137-k1d8dqs22on6geetp0t0vu6i0igd2r8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aihacks.bills_out",
+            "certificate_hash": "842fea354b7572cbfe5cdc7e0c47f6586aad154a"
+          }
+        },
+        {
+          "client_id": "789591028137-ksa0fepgfkh8k0t6qoebq6b44a1dddqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXSKOm5hW7H6XgnIxYHgB5HnuC9oDRXWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789591028137-ksa0fepgfkh8k0t6qoebq6b44a1dddqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
