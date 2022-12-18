@@ -27,10 +27,13 @@ abstract class BillsColors {
   static const Color transparent = Color(0x00000000);
 
   /// Primary
-  static const Color primary = Color(0xFF0000FF);
+  static const Color primary = Color(0xFF37474F);
 
   /// Secondary
-  static const Color secondary = Color(0xFFFB5246);
+  static const Color secondary = Color(0xFF2C314F);
+
+  /// Teritary
+  static const Color teritary = Color(0xFF521D82);
 
   /// Green
   static const Color green = Color(0xFF3fBC5C);

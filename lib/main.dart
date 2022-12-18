@@ -13,7 +13,7 @@ import 'views/home/home_view.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
-    title: 'Bills Out',
+    title: 'CodeXeR',
     debugShowCheckedModeBanner: false,
     theme: FlexThemeData.light(
       scheme: FlexScheme.greyLaw,
@@ -32,7 +32,7 @@ void main() {
       // To use the playground font, add GoogleFonts package and uncomment
       // fontFamily: GoogleFonts.notoSans().fontFamily,
     ),
-    themeMode: ThemeMode.dark,
+    themeMode: ThemeMode.light,
 
     darkTheme: FlexThemeData.dark(
       scheme: FlexScheme.greyLaw,

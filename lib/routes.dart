@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/home/home_view.dart';
+
 class RouteGenerator {
   static const String homePage = '/home';
 

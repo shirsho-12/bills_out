@@ -1,3 +1,6 @@
+import 'package:flex_color_scheme/flex_color_scheme.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 import 'colors.dart';
 import 'typography/typography.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +24,26 @@ class BillsTheme {
       bottomSheetTheme: _bottomSheetTheme,
       tabBarTheme: _tabBarTheme,
       dividerTheme: _dividerTheme,
+    );
+  }
+
+  static ThemeData get flexTheme {
+    return FlexThemeData.dark(
+      scheme: FlexScheme.greyLaw,
+      // appBarStyle: _appBarTheme,
+      surfaceMode: FlexSurfaceMode.levelSurfacesLowScaffold,
+      blendLevel: 15,
+      subThemesData: const FlexSubThemesData(
+        blendOnLevel: 20,
+        outlinedButtonRadius: 10.0,
+        bottomSheetRadius: 10.0,
+      ),
+      visualDensity: FlexColorScheme.comfortablePlatformDensity,
+      useMaterial3: true,
+      fontFamily: GoogleFonts.rubik().fontFamily,
+      // swapLegacyOnMaterial3: true,
+      // To use the Playground font, add GoogleFonts package and uncomment
+      // fontFamily: GoogleFonts.notoSans().fontFamily,
     );
   }
 
@@ -156,7 +179,7 @@ class BillsTheme {
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(30)),
         ),
-        primary: BillsColors.primary,
+        // primary: BillsColors.primary,
         fixedSize: const Size(208, 54),
       ),
     );
@@ -169,7 +192,7 @@ class BillsTheme {
           borderRadius: BorderRadius.all(Radius.circular(30)),
         ),
         side: const BorderSide(color: BillsColors.white, width: 2),
-        primary: BillsColors.white,
+        // primary: BillsColors.white,
         fixedSize: const Size(208, 54),
       ),
     );
@@ -181,7 +204,7 @@ class BillsTheme {
         color: BillsColors.charcoal,
         borderRadius: BorderRadius.all(Radius.circular(5)),
       ),
-      padding: EdgeInsets.all(10),
+      // padding: EdgeInsets.all(10),
       textStyle: TextStyle(color: BillsColors.white),
     );
   }
@@ -208,11 +231,11 @@ class BillsTheme {
       indicator: UnderlineTabIndicator(
         borderSide: BorderSide(
           width: 2,
-          color: BillsColors.primary,
+          // color: BillsColors.primary,
         ),
       ),
-      labelColor: BillsColors.primary,
-      unselectedLabelColor: BillsColors.black25,
+      // labelColor: BillsColors.primary,
+      // unselectedLabelColor: BillsColors.black25,
       indicatorSize: TabBarIndicatorSize.tab,
     );
   }
@@ -221,7 +244,7 @@ class BillsTheme {
     return const DividerThemeData(
       space: 0,
       thickness: 1,
-      color: BillsColors.black25,
+      // color: BillsColors.black25,
     );
   }
 }

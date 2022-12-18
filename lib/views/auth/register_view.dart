@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bills_out/app_ui.dart';
 // import 'dart:developer' as devtools show log;
 
 import 'package:bills_out/services/auth/auth_exceptions.dart';
@@ -64,9 +63,13 @@ class _RegisterViewState extends State<RegisterView> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // const Text("Register"),
-              Text(
-                "Welcome to Bills Out!\n\n Create a new account to get started",
-                style: BillsTextStyle.headline5,
+              const Text(
+                "Welcome to CodeXeR!\n\n Register Here",
+                // style: BillsTextStyle.headline5,
+                style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.w500,
+                ),
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 32.0),
